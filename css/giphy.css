@@ -1,0 +1,22 @@
+.inner {
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  top: 0px;
+  z-index: 499;
+}
+.wrapper {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: auto;
+}
+
+#searchgif {
+  position: relative;
+  height: 100%;
+
+  cursor: pointer;
+  background: linear-gradient(45deg, #9933ff 0%, #ff6666 100%);
+}
