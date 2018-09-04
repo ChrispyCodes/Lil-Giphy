@@ -19,5 +19,10 @@ function getGif() {
       );
     }
   });
-  return;
 }
+
+$("#searchtext").keyup(function(event) {
+  if (event.keyCode === 13) {
+    $("#searchgif").click();
+  }
+});
