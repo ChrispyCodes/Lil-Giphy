@@ -34,6 +34,12 @@ html {
   text-align: center;
   line-height: 50px;
 }
+
+h2 {
+  margin: 0;
+  font-family: Inconsolata;
+  background: linear-gradient(45deg, #9933ff 0%, #ff6666 100%);
+}
 /* input[type="text"] {
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
