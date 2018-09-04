@@ -1,22 +1,46 @@
-.inner {
+/* .inner {
   position: absolute;
-  text-align: center;
-  margin: 0;
-  top: 0px;
-  z-index: 499;
-}
-.wrapper {
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: auto;
+  background-color: black;
+  
+} */
+/* .wrapper {
+  margin-bottom: 20px;
+} */
+html {
+  background-color: black;
 }
 
 #searchgif {
   position: relative;
-  height: 100%;
-
+  height: auto;
+  width: 50px;
+  text-align: center;
   cursor: pointer;
   background: linear-gradient(45deg, #9933ff 0%, #ff6666 100%);
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 50px;
 }
+
+#searchtext {
+  position: relative;
+  height: 100%;
+  width: 350px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+/* input[type="text"] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+} */
+
+/* When the input field gets focus, change its width to 100% */
+/* input[type="text"]:focus {
+  width: 100%;
+} */

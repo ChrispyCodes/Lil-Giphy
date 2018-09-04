@@ -10,6 +10,7 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -25,8 +26,12 @@
   <!-- Add your site or application content here -->
   <div class="inner">
     <div class="wrapper">
+
       <input id="searchtext" type="text-center" placeholder="Search...">
-      <button id="searchgif" type="submit" onclick="getGif()">Search</button>
+      <button id="searchgif" type="submit" onclick="getGif()">
+        <i class="fa fa-search" style="font-size: 20px;"></i>
+      </button>
+
     </div>
   </div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
